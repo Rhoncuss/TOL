@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "AddressEmptyCode",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"errors": {
+				"AddressEmptyCode(address)": [
+					{
+						"details": "There's no code at `target` (it is not a contract)."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TOLCOIN_flattened.sol": "Address"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TOLCOIN_flattened.sol": {
+			"keccak256": "0x757d943692917a270f7373aac0a8e1a1e25c90a4db79baac2eb357f0cfa2cd0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://164e130907c7049d7d6761c3c894cbd0641846054414c0bae3673873f4468971",
+				"dweb:/ipfs/QmPsuAuG4kfqz5saKXyDWGoYGyrryzWkT4AmeXKFguEU2J"
+			]
+		}
+	},
+	"version": 1
+}
